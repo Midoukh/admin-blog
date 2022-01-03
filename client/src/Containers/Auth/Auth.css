@@ -1,0 +1,35 @@
+.Auth{
+	min-height: 100vh;
+	max-width: 100vw;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.Form{
+	min-height: 40vh;
+	width: 40vw;
+	border: 1px #ccc solid;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	/*align-items: center;*/
+}
+.Input{
+	padding: 0 20%;	
+	display: flex;
+	flex-flow: column;
+	margin-bottom: 2rem;
+}
+.Input label{
+	margin-right: 1rem;
+	color: rgba(0, 0, 0, .7);
+}
+.Input input{
+	outline: none;
+	padding: .4rem 0.8rem;
+	transition: 0.3s all ease-out;
+}
+Input input:focus{
+	background-color: #ccc;
+}

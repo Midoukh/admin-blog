@@ -1,0 +1,15 @@
+.Button{
+	outline: none;
+	border-radius: 5px;
+	width: 30%;
+	margin: 0 auto;
+	border: 1px #ccc solid;
+	box-sizing: border-box;
+	padding: .5rem .8rem;
+	font-weight: 700;
+	color: white;
+	cursor: pointer;
+}
+.Button:hover{
+	opacity: .8;
+}

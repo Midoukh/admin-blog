@@ -1,0 +1,14 @@
+.Input{
+    margin-top: 1rem;
+    padding: 1rem .9rem;
+    width: 65vw;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 1.5em;
+    transition: all .3s ease-in;
+}
+.Input:focus{
+    background-color: #ccc;
+}
