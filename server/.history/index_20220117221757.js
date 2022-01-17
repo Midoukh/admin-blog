@@ -11,8 +11,8 @@ app.use(express.json({ limit: "50mb" }));
 app.use(express.urlencoded({ limit: "50mb" }));
 
 //routes
-app.use("/", commentsRoute);
 app.use("/blogs", blogsRoute);
+app.use("/", commentsRoute);
 
 mongoose.connect(process.env.DB, {
   useNewUrlParser: true,

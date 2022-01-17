@@ -9,7 +9,7 @@ router.get("/", (req, res) => {
 router.get("/get", blogController.getAllBlog);
 router.get("/get/:slug", blogController.getBlogBySlug);
 
-//create a blog post
+//create one blog post
 router.post("/post", blogController.createBlog);
 
 module.exports = router;
